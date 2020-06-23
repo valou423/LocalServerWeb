@@ -10,7 +10,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        	<link rel="stylesheet" href="CSS.css">
+        	<link rel="stylesheet" href="../../CSS.css">
         <title>Inscription</title>
     </head>
     <body>

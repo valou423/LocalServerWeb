@@ -4,8 +4,7 @@ session_start(); //demarage de la session
 $log=$_POST['login'];
 $mdp=$_POST['password'];
 
-$_SESSION['login']=$log;
-$_SESSION['password']=$mdp;        
+        
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +12,7 @@ $_SESSION['password']=$mdp;
     <head>
         <meta charset="UTF-8">
         <title></title>
-        <link rel="stylesheet" href="CSS.css">
+        <link rel="stylesheet" href="/CSS.css">
 
     </head>
     <body>
@@ -30,12 +29,14 @@ $_SESSION['password']=$mdp;
             if ($ligne['login']==$log && $ligne['mdp']==$mdp ) {
                 echo '<h1 style="text-align: center;">Connexion reussi</h1>';
                 $_SESSION['etat']='connect';
-                include ('../..index.php');
+                $_SESSION['login']=$log;
+                $_SESSION['password']=$mdp;
+                include ('/var/www/html/index.php');
             }
         }
         if ($_SESSION['etat']=='' || $_SESSION['etat']=='disconnect') {
             echo '<h1 style="text-align: center;">Echec de la connexion</h1>';
-            include('Connexion.php');
+            include('/var/www/html/Ressource/connexion/Connexion.php');
             $_SESSION['etat']='disconnect';
         }
         
