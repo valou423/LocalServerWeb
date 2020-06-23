@@ -14,12 +14,10 @@ and open the template in the editor.
         <title>Inscription</title>
     </head>
     <body>
-        <h1 style="text-align: center;"> Inscription</h1>
-        <?php
-        include 'Menu_emedia.php';
-        ?>
+        <h1 style="text-align: center;">Inscription</h1>
         
-        <form action="http://192.168.0.10/Ressource/inscription/Inscription_test.php" method="POST" name="Inscription">
+        
+        <form action="Inscription_test.php" method="POST" name="Inscription">
             <fieldset>
     		<legend>Vos informations</legend>
     		<br>

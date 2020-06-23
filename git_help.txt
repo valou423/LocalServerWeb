@@ -1,0 +1,15 @@
+etape git :
+
+#1 se rendre dans le dossier principal du projet
+
+#2 git init
+
+#3 git add filename  --> prendre les fichier que l'on veut inserer dans notre projet
+
+#4 git commit -m "commentaire" --> ajoute les fichier au projet ecrasement des anciens
+
+Les branches = copie du projet pour faire des modifications.
+
+# git chekout --> changement de branch 
+# git merge NomBranch --> fusionne deux branch (il faut etre dans la branch ou on veut rappatrier)
+# git branch -d NomBranch --> Supprime la branch 

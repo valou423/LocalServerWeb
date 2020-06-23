@@ -8,7 +8,7 @@
             <li><a href="/Ressource/Christine/Christine.php">La page de Christine</a></li>
             <li><a href="/Ressource/Chloe/Chloe.php">La page de Chloé</a></li>
             <li><a href="/Ressource/Grisette/Grisette.php">La page de Grisette</a></li>
-            <li><a href="/verif.php">Verification</a></li>
+            <li><a href="/Ressource/Test/verif.php">Verification</a></li>
         </ul>
     </div>    
 </nav>

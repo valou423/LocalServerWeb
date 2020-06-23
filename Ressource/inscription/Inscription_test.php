@@ -26,7 +26,7 @@
                 if($req_exe==false) 
                     echo '<h1 style="text-align: center"> ERREUR !!! </h1>';
                 else
-                    include 'http://192.168.0.10/index.php';
+                    include '../../index.php';
             }
         }
     }
