@@ -13,3 +13,4 @@ Les branches = copie du projet pour faire des modifications.
 # git chekout --> changement de branch 
 # git merge NomBranch --> fusionne deux branch (il faut etre dans la branch ou on veut rappatrier)
 # git branch -d NomBranch --> Supprime la branch 
+
