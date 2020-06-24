@@ -2,6 +2,8 @@
 session_start(); //demarage de la session
 
 $id_session = session_id(); //Chaque utilisateur a une ID de session a chaque demarage du site
+
+include("/var/www/html/Fonction.php");
 ?>
 <!DOCTYPE html>
 
@@ -39,6 +41,8 @@ $id_session = session_id(); //Chaque utilisateur a une ID de session a chaque de
         <?php
         include("/var/www/html/Menu2.php");
         //include("Ressource/inscription/inscription.php");
+        compter_visite();
+        afficher_visite();
         ?>
         
     </body>
