@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <?php
 session_start(); //demarage de la session
 
 $id_session = session_id(); //Chaque utilisateur a une ID de session a chaque demarage du site
 ?>
+<!DOCTYPE html>
 
 
 <html>
@@ -19,8 +19,6 @@ $id_session = session_id(); //Chaque utilisateur a une ID de session a chaque de
 
         include("/var/www/html/toolsbar.php");
 
-
-
         if ($_SESSION['etat']=='connect') {
             echo '<h4>Vous êtes connecté en tant que '.$_SESSION['login'].'</h4>';
     
@@ -31,6 +29,9 @@ $id_session = session_id(); //Chaque utilisateur a une ID de session a chaque de
         }
 
         ?>
+
+        <br><br>
+
         <p>La famille CHEVAILLIER est une grande famille. Elle est composée de 
             beaucoup de membres. Le plus important reste sans aucun doute Grisette. 
             Chaqun des membres est decrit dans la liste ci-dessous.</p>

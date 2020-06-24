@@ -10,12 +10,15 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        	<link rel="stylesheet" href="../../CSS.css">
+        	<link rel="stylesheet" href="/CSS.css">
         <title>Inscription</title>
     </head>
     <body>
         <h1 style="text-align: center;">Inscription</h1>
         
+        <?php
+        include("/var/www/html/toolsbar.php");
+        ?>
         
         <form action="Inscription_test.php" method="POST" name="Inscription">
             <fieldset>
